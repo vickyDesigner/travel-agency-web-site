@@ -1,0 +1,137 @@
+/* For mobile*/
+@media only screen and (max-width: 680px) {
+  body {
+    margin: 0 auto;
+  }
+  span {
+    font-size: 28px;
+  }
+  h2,
+  h3 {
+    font-size: 16px;
+  }
+  footer {
+    display: none;
+  }
+  .landscape {
+    width: 100%;
+  }
+  .ticket {
+    display: none;
+  }
+  #aboutBigImg {
+    display: none;
+  }
+  p {
+    font-size: 12px;
+  }
+  .landscape {
+    display: none;
+  }
+  .carnivalMask {
+    display: none;
+  }
+  .waterTraffic {
+    width: 100%;
+  }
+
+  .waterText h4 {
+    font-size: 12px;
+  }
+
+  /****** Guide *******/
+
+  #bannerImg {
+    height: 200px;
+  }
+  #bannerImg p {
+    font-size: 14px;
+    padding: 30px;
+    color: #333;
+  }
+  #sub-list ul {
+    display: inline-flex;
+  }
+  #sub-list li {
+    width: 60px;
+    font-size: 12px;
+  }
+  .attraction h3 {
+    text-align: center;
+  }
+  #itr-attr img {
+    width: 100%;
+  }
+  #itr-attr h4 {
+    font-size: 16px;
+  }
+  #itr-attr p {
+    width: 90%;
+    font-size: 12px;
+  }
+  .attr-sub-container {
+    text-align: center;
+    width: 100%;
+  }
+  .attr-sub-container img {
+    display: inline-lock;
+  }
+  .attr-container {
+    display: block;
+    width: 100%;
+  }
+  .attr-container h3 {
+    width: 100px;
+  }
+  #text-container,
+  #burano-text,
+  #art-text,
+  #san-text {
+    width: auto;
+    padding: 0px;
+    text-align: center;
+  }
+  #text-container h4,
+  #burano-text h4,
+  #art-text h4,
+  #san-text h4 {
+    text-align: center;
+    padding: 0px;
+    display: block;
+  }
+
+  #text-container p,
+  #burano-text p,
+  #art-text p,
+  #san-text p {
+    text-align: center;
+    font-size: 14px;
+    width: auto;
+    padding: 15px;
+    border-radius: 50px;
+    border: solid 1px var(--accent-color);
+  }
+  #img-container img:nth-child(2),
+  #img-container img:nth-child(3),
+  #img-container img:nth-child(4),
+  #san-img img:nth-child(2),
+  #art-img img:nth-child(2),
+  #art-img img:nth-child(3),
+  #burano img,
+  #san-img2 img {
+    display: none;
+  }
+
+  #san-container {
+    width: auto;
+    display: inline-block;
+  }
+  #san-container2 {
+    display: inline-block;
+  }
+  #san-text {
+    display: inline-block;
+    width: inherit;
+    padding: 0px;
+  }
+}

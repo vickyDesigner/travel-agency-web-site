@@ -1,0 +1,61 @@
+/* For mobile*/
+@media only screen and (max-width: 600px) {
+  body {
+    position: absolute;
+    margin: 0 auto;
+  }
+
+  #mainImg {
+    height: auto;
+  }
+  #para {
+    margin-top: 0px;
+    padding: 0%;
+  }
+  #para span {
+    font-size: 22px;
+    padding: 0%;
+  }
+  #para h2 {
+    font-size: 15px;
+    padding: 0%;
+  }
+  #para p {
+    font-weight: 600;
+    font-size: 10px;
+  }
+  .illu {
+    display: inline-flex;
+    width: 100%;
+    position: relative;
+  }
+  #map {
+    width: 75%;
+  }
+  #map img {
+    position: inherit;
+    display: inline-flex;
+    float: left;
+    width: 100%;
+  }
+  .icons {
+    width: 25%;
+  }
+  #icon img {
+    padding: 5px;
+    display: inline-flex;
+    width: 60px;
+    float: left;
+    margin-left: 20px;
+  }
+  .icons p,
+  .icons h3 {
+    display: none;
+  }
+  .noHome {
+    display: none;
+  }
+  footer {
+    display: none;
+  }
+}
